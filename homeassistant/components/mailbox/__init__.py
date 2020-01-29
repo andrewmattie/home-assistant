@@ -168,7 +168,7 @@ class Mailbox:
         """Return a list of the current messages."""
         raise NotImplementedError()
 
-    def async_delete(self, msgid):
+    async def async_delete(self, msgid):
         """Delete the specified messages."""
         raise NotImplementedError()
 
